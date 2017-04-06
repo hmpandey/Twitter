@@ -4,10 +4,10 @@ Unfollow Everyone on twitter,  Very Easy Method to unfollow all you are followin
 
 
 
-step 1 : Log in to your twitter account.<br><br>
-step 2 : Go to your following list i.e. goto https://twitter.com/following. <br><br>
-step 3 : Keep scrolling to the bottom repeatedly until all list of users you are following is loaded.<br><br>
-step 4 : Open browser console and run the following javascipt code : <br><br>
+Step 1 : Log in to your twitter account.<br><br>
+Step 2 : Go to your following list i.e. goto https://twitter.com/following. <br><br>
+Step 3 : Keep scrolling to the bottom repeatedly until all list of users you are following is loaded.<br><br>
+Step 4 : Open browser console and run the following javascript code : <br><br>
 <i>
 [].slice.call(document.querySelectorAll('.unfollow-text')).forEach(function(button) {
   button.click();
